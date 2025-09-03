@@ -86,14 +86,11 @@ def filter_results():
     if request.method == "POST":
         options = ['vegetarian', 'non-vegetarian', 'indian', 'japanese', 'american', 'italian', 'mexican', 'spanish', 'french', 'chinese']
         checked_options = []
-        print(request.form)
         for option in options:
             if option in request.form:
                 checked_options.append(option)
         
         tags = ','.join(checked_options)
-        print(checked_options)
-        print(tags)
         return redirect(f'/home{tags}')
 
 
