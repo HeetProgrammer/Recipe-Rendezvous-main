@@ -29,45 +29,19 @@ A Flask web application that allows users to register, log in, and log out, whil
 
 ```Bash
 git clone https://github.com/HeetProgrammer/recipe-rendezvous-main.git
-cd recipe-rendezvous
+cd recipe-rendezvous-main
 ```
 
-2. Create and Activate Virtual Environment
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate     # On Windows
-```
 
-3. Install Dependencies
+2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Set Environment Variables
 
-Create a `.env` file in the project root with the following:
-
-```
-FLASK_APP=run.py
-FLASK_ENV=development
-SECRET_KEY="14909cf5d30977cc13b50ed7"
-API_KEY="41c2f8ab2111424583f16604c80809f8"
-```
-
-5. Initialize Database
-
-```bash
-python
->>> from directory import db, app
->>> app.app_context().push()
->>> db.create_all()
->>> exit()
-```
-
-### 6. Run the Application
+3. Run the Application
 
 ```bash
 flask run
