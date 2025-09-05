@@ -41,10 +41,10 @@ pip install -r requirements.txt
 ```
 
 
-3. Run the Application
+3. Run the 'run.py' file
 
 ```bash
-flask run
+python run.py
 ```
 
 Visit `http://127.0.0.1:5000/` in your browser.
