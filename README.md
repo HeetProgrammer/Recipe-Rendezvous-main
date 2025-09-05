@@ -28,7 +28,7 @@ A Flask web application that allows users to register, log in, and log out, whil
 1. Clone the Repository
 
 ```Bash
-git clone https://github.com/your-username/recipe-rendezvous.git
+git clone https://github.com/HeetProgrammer/recipe-rendezvous-main.git
 cd recipe-rendezvous
 ```
 
@@ -53,7 +53,7 @@ Create a `.env` file in the project root with the following:
 ```
 FLASK_APP=run.py
 FLASK_ENV=development
-SECRET_KEY=your-secret-key
+SECRET_KEY="14909cf5d30977cc13b50ed7"
 API_KEY="41c2f8ab2111424583f16604c80809f8"
 ```
 
@@ -84,4 +84,4 @@ Visit `http://127.0.0.1:5000/` in your browser.
 
 
 
-Heet, do you want me to also include **example screenshots and usage steps** (like registering and searching for a vegetarian Italian dish) in the README, or should I keep it simple and clean?
+
